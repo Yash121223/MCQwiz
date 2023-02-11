@@ -1,0 +1,57 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    /* flex: 4; */
+    background-color: white;
+    box-shadow:inset;
+}
+
+.logo img {
+    width: 220px;
+}
+
+.pages {
+    margin-left: 40vw;
+}
+
+.pages ul {
+    display: flex;
+    flex: 4;
+    list-style: none;
+}
+
+.item {
+    margin: 18px;
+    font-size: 1.3rem;
+    font-family: 'Itim', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Unbounded', cursive;
+}
+
+.item a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 12px;
+}
+
+.item :hover {
+    transition: .3s;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+a:hover {
+
+    color: white;
+
+}

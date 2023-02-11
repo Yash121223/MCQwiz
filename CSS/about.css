@@ -1,0 +1,53 @@
+body {
+    background-color: bisque;
+}
+
+.content-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.content {
+    font-size: 1.2rem;
+    padding: 12px 44px;
+    font-family: 'Itim', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Unbounded', cursive;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: 2px solid black;
+    margin-top: 44px;
+    margin-left: -12px;
+}
+
+.midPart {
+    color: white;
+    padding: 12px;
+    font-family: 'Itim', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Unbounded', cursive;
+    margin: 0px 300px;
+    margin-left: 370px;
+}
+
+.icons {
+    margin-left: 80px;
+}
+
+.fa {
+    margin: 8px;
+    text-decoration: none;
+    color: white;
+}
+
+.fa:hover {
+    color: rgb(177, 171, 171);
+}

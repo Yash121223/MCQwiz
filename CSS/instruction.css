@@ -1,0 +1,123 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    animation: animate;
+    animation-duration: 5s;
+}
+@keyframes animate {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.heading {
+    padding: 12px;
+    margin: 12px;
+    color: rgb(58, 42, 11);
+    text-align: center;
+}
+
+.heading1 {
+    padding: 12px;
+    margin: 12px;
+    color: rgb(58, 42, 11);
+}
+
+ul {
+    list-style-type: square;
+}
+
+.items {
+    margin: 12px;
+    padding: 12px;
+    font-size: 1.1rem;
+
+}
+
+.btn {
+    margin-left: 24rem;
+    margin-top: 1rem;
+    border: 2px solid rgb(0, 225, 255);
+    background-color: rgb(0, 225, 255);
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    width: 6rem;
+    height: 3rem;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color: rgb(69, 230, 251);
+}
+
+.btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.foot1 {
+    display: flex;
+    background-color: rgb(49, 45, 45);
+    color: white;
+    padding: 12px;
+    height: 5rem;
+    border-radius: 10px;
+}
+
+.foot1 img {
+    width: 10rem;
+}
+
+.text {
+    margin: 12px;
+    padding: 12px;
+    font-size: 1.2rem;
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: 2px solid black;
+    position: absolute;
+    top: 100%;
+    width: 100vw;
+    margin-top: 144px;
+    margin-left: -12px;
+}
+
+.midPart {
+    color: white;
+    padding: 12px;
+    font-family: 'Itim', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Unbounded', cursive;
+    margin: 0px 300px;
+    margin-left: 370px;
+}
+
+.icons {
+    margin-left: 80px;
+}
+
+.fa {
+    margin: 8px;
+    text-decoration: none;
+    color: white;
+}
+
+.fa:hover {
+    color: rgb(177, 171, 171);
+}

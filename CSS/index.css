@@ -1,0 +1,134 @@
+
+
+.midContainer {
+    margin-top: 30.4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text1 {
+    font-size: 1.3rem;
+}
+
+.imgs {
+    margin: 12px;
+    margin-top: 230px;
+    height: 42vh;
+    width: 30vw;
+
+}
+
+#right {
+    position: absolute;
+    top: 55%;
+    animation: right 3s;
+}
+
+#midImg {
+    position: absolute;
+    top: 49%;
+    left: 37%;
+    animation: mid 3s;
+}
+
+#left {
+    position: absolute;
+    left: 75%;
+    animation: left 3s;
+}
+
+@keyframes right {
+    0% {
+        left: -243%;
+    }
+
+    100% {
+        left: 0%;
+    }
+}
+
+@keyframes left {
+    0% {
+        left: 243%;
+    }
+
+    100% {
+        left: 75%;
+    }
+}
+
+@keyframes mid {
+    0% {
+        top: 55%;
+    }
+
+    100% {
+        top: 49%;
+    }
+}
+
+.buton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 85vh;
+}
+
+.btn {
+    width: 12vw;
+    height: 12vh;
+    font-size: 1.2rem;
+    padding: 12px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+    width: 12vw;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn a:hover {
+    color: black;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: 2px solid black;
+    margin-top: 44px;
+    margin-left: -12px;
+}
+
+.midPart {
+    color: white;
+    padding: 12px;
+    font-family: 'Itim', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Unbounded', cursive;
+    margin: 0px 300px;
+    margin-left: 370px;
+}
+
+.icons {
+    margin-left: 80px;
+}
+
+.fa {
+    margin: 8px;
+    text-decoration: none;
+    color: white;
+}
+
+.fa:hover {
+    color: rgb(177, 171, 171);
+}
